@@ -15,13 +15,13 @@
 <body>
   <div class="container wrapper">
     <!-- Sidebar -->
-    <nav class="container sidebar">
+    <div class="container sidebar">
       <div class="branding">
         <img src="profiles/paw.svg" alt="" class="logo">
         <p>Dashboard</p>
       </div>
 
-      <ul class="navigation">
+      <ul class="navigation container">
         <li class="navigation-item home">
           <img src="icons/home.svg" alt="" class="icon">
           <p>Home</p>
@@ -48,7 +48,7 @@
         </li>
       </ul>
 
-      <ul class="account">
+      <ul class="account container">
         <li class="account-item settings">
           <img src="icons/cog.svg" alt="" class="icon">
           <p>Settings</p>
@@ -62,10 +62,10 @@
           <p>Privacy</p>
         </li>
       </ul>
-    </nav>
+    </div>
     <!-- Header -->
     <header class="container header">
-      <div class="searchbar">
+      <div class="container searchbar">
         <img src="icons/magnify.svg" alt="" class="icon">
         <input type="search" name="searchbar" id="searchbar">
       </div>
@@ -86,144 +86,146 @@
       </div>
     </header>
     <!-- Main Content -->
-    <main class="container main">
-      <section class="projects">
-        <h1>Your Projects</h1>
-        <div class="container card-container">
-          <div class="project-card card-1">
-            <h2>Super Cool Project</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta porro, sit natus, velit eligendi quisquam tempora dolorem rem veritatis fugit beatae quis, nisi sequi commodi asperiores. Harum quia mollitia voluptatum.</p>
-            <div>
-              <button class="icon">
-                <img src="icons/star-plus-outline.svg" alt="" class="icon">
-              </button>
-              <button class="icon">
-                <img src="icons/eye-plus-outline.svg" alt="" class="icon">
-              </button>
-              <button class="icon">
-                <img src="icons/source-fork.svg" alt="" class="icon">
-              </button>
+    <main class="main">
+      <div class="overflow-container">
+        <section class="projects">
+          <h1>Your Projects</h1>
+          <div class="container card-container">
+            <div class="project-card card-1">
+              <h2>Super Cool Project</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta porro, sit natus, velit eligendi quisquam tempora dolorem rem veritatis fugit beatae quis, nisi sequi commodi asperiores. Harum quia mollitia voluptatum.</p>
+              <div>
+                <button class="icon">
+                  <img src="icons/star-plus-outline.svg" alt="" class="icon">
+                </button>
+                <button class="icon">
+                  <img src="icons/eye-plus-outline.svg" alt="" class="icon">
+                </button>
+                <button class="icon">
+                  <img src="icons/source-fork.svg" alt="" class="icon">
+                </button>
+              </div>
+            </div>
+            <div class="project-card card-2">
+              <h2>Less Cool Project</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta porro, sit natus, velit eligendi quisquam tempora dolorem rem veritatis fugit beatae quis, nisi sequi commodi asperiores. Harum quia mollitia voluptatum.</p>
+              <div>
+                <button class="icon">
+                  <img src="icons/star-plus-outline.svg" alt="" class="icon">
+                </button>
+                <button class="icon">
+                  <img src="icons/eye-plus-outline.svg" alt="" class="icon">
+                </button>
+                <button class="icon">
+                  <img src="icons/source-fork.svg" alt="" class="icon">
+                </button>
+              </div>
+            </div>
+            <div class="project-card card-3">
+              <h2>Impossible App</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta porro, sit natus, velit eligendi quisquam tempora dolorem rem veritatis fugit beatae quis, nisi sequi commodi asperiores. Harum quia mollitia voluptatum.</p>
+              <div>
+                <button class="icon">
+                  <img src="icons/star-plus-outline.svg" alt="" class="icon">
+                </button>
+                <button class="icon">
+                  <img src="icons/eye-plus-outline.svg" alt="" class="icon">
+                </button>
+                <button class="icon">
+                  <img src="icons/source-fork.svg" alt="" class="icon">
+                </button>
+              </div>
+            </div>
+            <div class="project-card card-4">
+              <h2>Easy Peasy App</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta porro, sit natus, velit eligendi quisquam tempora dolorem rem veritatis fugit beatae quis, nisi sequi commodi asperiores. Harum quia mollitia voluptatum.</p>
+              <div>
+                <button class="icon">
+                  <img src="icons/star-plus-outline.svg" alt="" class="icon">
+                </button>
+                <button class="icon">
+                  <img src="icons/eye-plus-outline.svg" alt="" class="icon">
+                </button>
+                <button class="icon">
+                  <img src="icons/source-fork.svg" alt="" class="icon">
+                </button>
+              </div>
+            </div>
+            <div class="project-card card-5">
+              <h2>Ad Blocker</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta porro, sit natus, velit eligendi quisquam tempora dolorem rem veritatis fugit beatae quis, nisi sequi commodi asperiores. Harum quia mollitia voluptatum.</p>
+              <div>
+                <button class="icon">
+                  <img src="icons/star-plus-outline.svg" alt="" class="icon">
+                </button>
+                <button class="icon">
+                  <img src="icons/eye-plus-outline.svg" alt="" class="icon">
+                </button>
+                <button class="icon">
+                  <img src="icons/source-fork.svg" alt="" class="icon">
+                </button>
+              </div>
+            </div>
+            <div class="project-card card-6">
+              <h2>Money Maker</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta porro, sit natus, velit eligendi quisquam tempora dolorem rem veritatis fugit beatae quis, nisi sequi commodi asperiores. Harum quia mollitia voluptatum.</p>
+              <div>
+                <button class="icon">
+                  <img src="icons/star-plus-outline.svg" alt="" class="icon">
+                </button>
+                <button class="icon">
+                  <img src="icons/eye-plus-outline.svg" alt="" class="icon">
+                </button>
+                <button class="icon">
+                  <img src="icons/source-fork.svg" alt="" class="icon">
+                </button>
+              </div>
             </div>
           </div>
-          <div class="project-card card-2">
-            <h2>Less Cool Project</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta porro, sit natus, velit eligendi quisquam tempora dolorem rem veritatis fugit beatae quis, nisi sequi commodi asperiores. Harum quia mollitia voluptatum.</p>
-            <div>
-              <button class="icon">
-                <img src="icons/star-plus-outline.svg" alt="" class="icon">
-              </button>
-              <button class="icon">
-                <img src="icons/eye-plus-outline.svg" alt="" class="icon">
-              </button>
-              <button class="icon">
-                <img src="icons/source-fork.svg" alt="" class="icon">
-              </button>
+        </section>
+        <section class="announcements">
+          <h1>Announcements</h1>
+          <div class="container announcements-container">
+            <div class="announcement-item item-1">
+              <h2>Site Maintenance</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo ullam quisquam distinctio consectetur?...</p>
+            </div>
+            <div class="announcement-item item-2">
+              <h2>Community Share Day</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, nemo. Vel, ex officia...</p>
+            </div>
+            <div class="announcement-item item-3">
+              <h2>Updated Privacy Policy</h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et aliquid consectetur beatae sint...</p>
             </div>
           </div>
-          <div class="project-card card-3">
-            <h2>Impossible App</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta porro, sit natus, velit eligendi quisquam tempora dolorem rem veritatis fugit beatae quis, nisi sequi commodi asperiores. Harum quia mollitia voluptatum.</p>
-            <div>
-              <button class="icon">
-                <img src="icons/star-plus-outline.svg" alt="" class="icon">
-              </button>
-              <button class="icon">
-                <img src="icons/eye-plus-outline.svg" alt="" class="icon">
-              </button>
-              <button class="icon">
-                <img src="icons/source-fork.svg" alt="" class="icon">
-              </button>
+        </section>
+        <section class="trending">
+          <h1>Trending</h1>
+          <div class="container trending-container">
+            <div class="trending-item item-1">
+              <img src="profiles/dog.svg" alt="" class="profile-image">
+              <p>@tegan</p>
+              <p>World Peace Builder</p>
+            </div>
+            <div class="trending-item item-2">
+              <img src="profiles/ladybug.svg" alt="" class="profile-image">
+              <p>@morgan</p>
+              <p>Super Cool Project</p>
+            </div>
+            <div class="trending-item item-3">
+              <img src="profiles/turtle.svg" alt="" class="profile-image">
+              <p>@kendall</p>
+              <p>Life Chaning App</p>
+            </div>
+            <div class="trending-item item-4">
+              <img src="profiles/fishbowl.svg" alt="" class="profile-image">
+              <p>@alex</p>
+              <p>No Traffic Maker</p>
             </div>
           </div>
-          <div class="project-card card-4">
-            <h2>Easy Peasy App</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta porro, sit natus, velit eligendi quisquam tempora dolorem rem veritatis fugit beatae quis, nisi sequi commodi asperiores. Harum quia mollitia voluptatum.</p>
-            <div>
-              <button class="icon">
-                <img src="icons/star-plus-outline.svg" alt="" class="icon">
-              </button>
-              <button class="icon">
-                <img src="icons/eye-plus-outline.svg" alt="" class="icon">
-              </button>
-              <button class="icon">
-                <img src="icons/source-fork.svg" alt="" class="icon">
-              </button>
-            </div>
-          </div>
-          <div class="project-card card-5">
-            <h2>Ad Blocker</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta porro, sit natus, velit eligendi quisquam tempora dolorem rem veritatis fugit beatae quis, nisi sequi commodi asperiores. Harum quia mollitia voluptatum.</p>
-            <div>
-              <button class="icon">
-                <img src="icons/star-plus-outline.svg" alt="" class="icon">
-              </button>
-              <button class="icon">
-                <img src="icons/eye-plus-outline.svg" alt="" class="icon">
-              </button>
-              <button class="icon">
-                <img src="icons/source-fork.svg" alt="" class="icon">
-              </button>
-            </div>
-          </div>
-          <div class="project-card card-6">
-            <h2>Money Maker</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta porro, sit natus, velit eligendi quisquam tempora dolorem rem veritatis fugit beatae quis, nisi sequi commodi asperiores. Harum quia mollitia voluptatum.</p>
-            <div>
-              <button class="icon">
-                <img src="icons/star-plus-outline.svg" alt="" class="icon">
-              </button>
-              <button class="icon">
-                <img src="icons/eye-plus-outline.svg" alt="" class="icon">
-              </button>
-              <button class="icon">
-                <img src="icons/source-fork.svg" alt="" class="icon">
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="announcements">
-        <h1>Announcements</h1>
-        <div class="container announcements-container">
-          <div class="announcement-item item-1">
-            <h2>Site Maintenance</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo ullam quisquam distinctio consectetur?...</p>
-          </div>
-          <div class="announcement-item item-2">
-            <h2>Community Share Day</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, nemo. Vel, ex officia...</p>
-          </div>
-          <div class="announcement-item item-3">
-            <h2>Updated Privacy Policy</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et aliquid consectetur beatae sint...</p>
-          </div>
-        </div>
-      </section>
-      <section class="trending">
-        <h1>Trending</h1>
-        <div class="container trending-container">
-          <div class="trending-item item-1">
-            <img src="profiles/dog.svg" alt="" class="profile-image">
-            <p>@tegan</p>
-            <p>World Peace Builder</p>
-          </div>
-          <div class="trending-item item-2">
-            <img src="profiles/ladybug.svg" alt="" class="profile-image">
-            <p>@morgan</p>
-            <p>Super Cool Project</p>
-          </div>
-          <div class="trending-item item-3">
-            <img src="profiles/turtle.svg" alt="" class="profile-image">
-            <p>@kendall</p>
-            <p>Life Chaning App</p>
-          </div>
-          <div class="trending-item item-4">
-            <img src="profiles/fishbowl.svg" alt="" class="profile-image">
-            <p>@alex</p>
-            <p>No Traffic Maker</p>
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </main>
   </div>
 </body>
